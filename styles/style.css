@@ -27,5 +27,84 @@
 body,
 html {
   font-size: 62.5%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Poppins", sans-serif;
 }
+
+.button-white {
+  padding: 5px 25px;
+  font-size: 1.5rem;
+  color: var(--black);
+  font-weight: bold;
+  background-color: var(--white);
+}
+
+.button-black {
+  padding: 5px 25px;
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: bold;
+  background-color: var(--black);
+}
+
+/* Header */
+header {
+  height: 712px;
+  width: 100%;
+  min-width: 320px;
+  padding: 40px 20px;
+  color: var(--white);
+  background-image: url("../assets/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 7rem;
+}
+
+header a {
+  padding: 5px 25px;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  background-color: var(--white);
+}
+
+header p {
+  margin: 17px 0px;
+  font-size: 1.3rem;
+}
+
+/* Main Section */
+
+main {
+  width: 100%;
+  min-width: 320px;
+}
+
+main .main-container {
+  height: 800px;
+  margin: 20px 0px;
+  padding: 25px;
+  background-color: var(--grey);
+}
+
+main .main-container h1 {
+  font-size: 3.8rem;
+}
+
+main .main-container .main-container--image img {
+  margin: auto;
+  height: 316px;
+}
+
+main .main-container p {
+  font-size: 2.2rem;
+}
+
+/* Footer */
