@@ -90,12 +90,16 @@ main {
 main .main-container {
   height: 700px;
   margin: 20px 0px;
-  padding: 25px;
+  padding: 50px;
   background-color: var(--grey);
 }
 
 main .main-container h1 {
   font-size: 3.8rem;
+}
+
+main .main-container .main-container--image {
+  text-align: center;
 }
 
 main .main-container .main-container--image img {
@@ -107,6 +111,10 @@ main .main-container p {
   font-size: 2.2rem;
 }
 
+main .main-container .main-container--options {
+  text-align: center;
+}
+
 main .main-container .main-container--options p {
   margin: 10px 0px;
 }
@@ -116,7 +124,7 @@ main .main-container .main-container--options a {
   width: 140px;
   height: 35px;
   text-align: center;
-  margin: 30px 0px;
+  margin: 30px auto;
   border-radius: 15px;
   cursor: pointer;
 }

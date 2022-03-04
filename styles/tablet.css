@@ -1,3 +1,28 @@
-body {
-  background-color: black;
+/* Header */
+
+header {
+  height: 712px;
+  width: 100%;
+  min-width: 320px;
+  padding: 40px 50px;
+  color: var(--white);
+  background-image: url("../assets/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main .main-container {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .main-container .main-container--options {
+  width: 50%;
+}
+
+main .main-container .main-container--image {
+  width: 50%;
 }
